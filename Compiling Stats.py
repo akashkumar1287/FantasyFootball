@@ -66,3 +66,4 @@ TE = FF.loc[(FF['Pos'] == 'TE')]
 TE = TE.reset_index(drop=True)
 TE.to_csv('TE_Stats.csv')
 
+
